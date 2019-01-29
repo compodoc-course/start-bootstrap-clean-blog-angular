@@ -8,7 +8,14 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "compodoc": "npx compodoc -p src/tsconfig.app.json -d docs -o -s"
+    "compodoc": "npx compodoc -p src/tsconfig.app.json -d docs -o -s",
+    "material.theme": "npx compodoc -p src/tsconfig.app.json -d docs -o -s --theme material",
+    "laravel.theme": "npx compodoc -p src/tsconfig.app.json -d docs -o -s --theme laravel",
+    "original.theme": "npx compodoc -p src/tsconfig.app.json -d docs -o -s --theme original",
+    "postmark.theme": "npx compodoc -p src/tsconfig.app.json -d docs -o -s --theme postmark",
+    "vagrant.theme": "npx compodoc -p src/tsconfig.app.json -d docs -o -s --theme vagrant",
+    "readthedocs.theme": "npx compodoc -p src/tsconfig.app.json -d docs -o -s --theme readthedocs",
+    "stripe.theme": "npx compodoc -p src/tsconfig.app.json -d docs -o -s --theme stripe"
   },
   "private": true,
   "dependencies": {
