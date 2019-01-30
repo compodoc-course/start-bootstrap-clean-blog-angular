@@ -15,7 +15,8 @@
     "postmark.theme": "npx compodoc -p src/tsconfig.app.json -d docs -o -s --theme postmark",
     "vagrant.theme": "npx compodoc -p src/tsconfig.app.json -d docs -o -s --theme vagrant",
     "readthedocs.theme": "npx compodoc -p src/tsconfig.app.json -d docs -o -s --theme readthedocs",
-    "stripe.theme": "npx compodoc -p src/tsconfig.app.json -d docs -o -s --theme stripe"
+    "stripe.theme": "npx compodoc -p src/tsconfig.app.json -d docs -o -s --theme stripe",
+    "aditional": "npx compodoc -p src/tsconfig.app.json -d docs -o -s --includes ./aditional -w"
   },
   "private": true,
   "dependencies": {
