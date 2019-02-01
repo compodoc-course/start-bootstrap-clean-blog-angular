@@ -16,7 +16,9 @@
     "vagrant.theme": "npx compodoc -p src/tsconfig.app.json -d docs -o -s --theme vagrant",
     "readthedocs.theme": "npx compodoc -p src/tsconfig.app.json -d docs -o -s --theme readthedocs",
     "stripe.theme": "npx compodoc -p src/tsconfig.app.json -d docs -o -s --theme stripe",
-    "aditional": "npx compodoc -p src/tsconfig.app.json -d docs -o -s --includes ./aditional -w"
+    "aditional": "npx compodoc -p src/tsconfig.app.json -d docs -o -s --includes ./aditional -w",
+    "custom.title.favicon": "npx compodoc -p src/tsconfig.app.json -d docs -o -s --includes ./aditional -w -n \"Mi documentacion\" --customFavicon ./book.ico",
+    "custom.style": "npx compodoc -p src/tsconfig.app.json -d docs -o -s --includes ./aditional -w -n \"Mi documentacion\" --customFavicon ./book.ico -y ./css/ --hideGenerator"
   },
   "private": true,
   "dependencies": {

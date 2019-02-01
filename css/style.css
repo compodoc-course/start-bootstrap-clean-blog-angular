@@ -1,0 +1,54 @@
+@import "./reset.css";
+@import "./bootstrap.min.css";
+@import "./bootstrap-card.css";
+@import "./prism.css";
+@import "./ionicons.min.css";
+@import "./compodoc.css";
+@import "./tablesort.css";
+
+/*Nuestros estilos*/
+
+.menu .title {
+	margin-top: 200px;
+}
+
+.menu {
+    background: url('logo.png') no-repeat;
+        background-position-x: 0%;
+        background-position-y: 0%;
+        background-size: auto;
+    background-size: 140px;
+    background-position-x: 50%;
+    background-position-y: 40px;
+}
+
+h1 {
+    color: orangered;
+}
+
+h2 {
+    color: green;
+}
+
+code {
+    color: brown;
+}
+
+a {
+    color: red;
+}
+
+.title {
+    background-color: red;
+}
+
+.title a {
+    color: white !important;
+    text-align: center;
+    text-transform: capitalize
+}
+
+#book-search-input {
+    background: blue;
+    color: white;
+}
