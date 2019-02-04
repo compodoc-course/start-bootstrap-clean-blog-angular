@@ -6,6 +6,8 @@
   },
   "exclude": [
     "test.ts",
-    "**/*.spec.ts"
+    "**/*.spec.ts",
+    "**/youtube.pipe.ts",
+    "**/about.component.ts"
   ]
 }

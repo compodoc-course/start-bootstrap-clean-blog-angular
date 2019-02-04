@@ -1,15 +1,28 @@
+
 import { SharedElement } from './../../interfaces/shared-element.interface';
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+
 
 @Component({
   selector: 'blog-footer',
   templateUrl: './footer.component.html',
   styleUrls: ['./footer.component.css']
 })
-export class FooterComponent {
+export class FooterComponent implements OnInit {
+  /**
+   * @ignore
+   */
   currentYear: number = new Date().getFullYear();
+
+  /**
+   * Comentario inicial 1
+   * Comentario inicial 2
+   */
   author = 'Anartz Mugika Ledo';
 
+  /**
+   * @ignore
+   */
   sharedElements: SharedElement[] = [
     {
       url: 'https://twitter.com/',
@@ -37,6 +50,37 @@ export class FooterComponent {
       icon: 'fab fa-npm'
     }
   ];
+  /**
+   * Init!!!
+   */
+  ngOnInit() {
+    console.log('Hola');
+  }
+
+  /**
+   * Hola saludo
+   * {@link http://www.github.com Me voy a subir mis cambios del codigo a Github!!!}
+   * @example
+   * Mostrarnos un saludo con contenido \"hola\"
+   * @returns Devuelve un saludo con contenido 'hola'
+   */
+  private holaMundo(): string {
+    return 'hola';
+  }
+
+  /**
+   * Hola saludo
+   * @example
+   * Tenemos como nombre Anartz
+   * Tenemos como apellido Mugika
+   * Mostrarnos un saludo con contenido \"hola Anartz Mugika\"
+   * @param nombre Nombre al que vamos a saludar
+   * @param apellido Apellido del que vamos a saludar
+   * @returns Devuelve un saludo con contenido 'hola'
+   */
+  protected holaMundoPersonalizado(nombre: string, apellido: string): string {
+    return 'hola ' + nombre + ' ' + apellido;
+  }
 }
 
 
