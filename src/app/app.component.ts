@@ -1,16 +1,27 @@
 import { Component } from '@angular/core';
 
-// Declaramos las variables para jQuery
+/**
+ * Declaramos las variables para jQuery
+ */
 declare var $: any;
 
+/**
+ * Component principal del proyecto
+ */
 @Component({
   selector: 'blog-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+  /**
+   * Titulo
+   */
   title = 'blog-angular';
 
+  /**
+   * Para formar los elementos e inicializar
+   */
   constructor() {
     // Floating label headings for the contact form
     $('body').on('input propertychange', '.floating-label-form-group', function(e) {
@@ -49,6 +60,9 @@ export class AppComponent {
         });
     }
   }
+  /**
+   * Iniciar
+   */
   init() {
 
   }

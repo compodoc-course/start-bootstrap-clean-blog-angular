@@ -2,7 +2,9 @@
 import { SharedElement } from './../../interfaces/shared-element.interface';
 import { Component, OnInit } from '@angular/core';
 
-
+/**
+ * Un comentario del footer de nuevo
+ */
 @Component({
   selector: 'blog-footer',
   templateUrl: './footer.component.html',

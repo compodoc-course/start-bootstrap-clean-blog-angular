@@ -1,6 +1,9 @@
 import { Pipe, PipeTransform } from '@angular/core';
 import { DomSanitizer } from '@angular/platform-browser';
 
+/**
+ * Dom secure para usarlo en iframes
+ */
 @Pipe({
   name: 'domSecure'
 })

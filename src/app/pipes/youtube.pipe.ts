@@ -3,6 +3,9 @@ import { Pipe, PipeTransform } from '@angular/core';
 import { DomSecurePipe } from './dom-secure.pipe';
 import { DomSanitizer } from '@angular/platform-browser';
 
+/**
+ * Para cargar los videos de youtube
+ */
 @Pipe({
   name: 'youtube'
 })
