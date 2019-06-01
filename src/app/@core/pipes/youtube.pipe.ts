@@ -1,4 +1,4 @@
-import { YOUTUBE_EMBED } from './../constants/urls';
+import { YOUTUBE_EMBED } from '../constants/urls';
 import { Pipe, PipeTransform } from '@angular/core';
 import { DomSecurePipe } from './dom-secure.pipe';
 import { DomSanitizer } from '@angular/platform-browser';
